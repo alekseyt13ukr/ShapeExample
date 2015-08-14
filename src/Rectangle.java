@@ -1,6 +1,3 @@
-/**
- * Created by qa-mach3 on 14.08.15.
- */
 public class Rectangle extends Shape {
     private int height;
     private int width;
@@ -13,7 +10,7 @@ public class Rectangle extends Shape {
 
     @Override
     public void draw() {
-        //drawing current shape
+        System.out.println();
     }
 
     public int getHeight() {

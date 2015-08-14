@@ -1,6 +1,3 @@
-/**
- * Created by qa-mach3 on 14.08.15.
- */
 public class Point {
     private int x;
     private int y;
@@ -15,7 +12,7 @@ public class Point {
         y = point.getY();
     }
 
-    public Point comparativePoint(int dx, int dy) {
+    public Point relativePoint(int dx, int dy) {
         return new Point(x + dx, y + dy);
     }
 

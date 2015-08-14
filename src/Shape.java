@@ -1,6 +1,3 @@
-/**
- * Created by qa-mach3 on 14.08.15.
- */
 public abstract class Shape {
     private Point center;
 
@@ -9,4 +6,12 @@ public abstract class Shape {
     }
 
     public abstract void draw();
+
+    public Point getCenter() {
+        return center;
+    }
+
+    public void setCenter(Point center) {
+        this.center = center;
+    }
 }

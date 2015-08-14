@@ -1,33 +1,30 @@
-/**
- * Created by qa-mach3 on 14.08.15.
- */
 public class Line extends Shape {
-    private Point startPoint;
-    private Point lastPoint;
+    private Point start;
+    private Point end;
 
-    public Line(Point startPoint, Point lastPoint) {
-        super(startPoint);
-        this.lastPoint = lastPoint;
+    public Line(Point start, Point end) {
+        super(start);
+        this.end = end;
     }
 
     @Override
     public void draw() {
-        //drawing current shape
+        System.out.println(getCenter() + "-----------" + end);
     }
 
-    public Point getLastPoint() {
-        return lastPoint;
+    public Point getEnd() {
+        return end;
     }
 
-    public void setLastPoint(Point lastPoint) {
-        this.lastPoint = lastPoint;
+    public void setEnd(Point end) {
+        this.end = end;
     }
 
-    public Point getStartPoint() {
-        return startPoint;
+    public Point getStart() {
+        return start;
     }
 
-    public void setStartPoint(Point startPoint) {
-        this.startPoint = startPoint;
+    public void setStart(Point start) {
+        this.start = start;
     }
 }
