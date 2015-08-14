@@ -1,7 +1,6 @@
-import junit.framework.Assert;
-import org.junit.Test;
+package com.taran.shapes;
 
-import static org.junit.Assert.*;
+import org.junit.Test;
 
 public class LineTest {
     Point start = new Point(10, 15);
