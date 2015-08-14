@@ -1,15 +1,17 @@
+import junit.framework.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-/**
- * Created by qa-mach3 on 14.08.15.
- */
 public class LineTest {
+    Point start = new Point(10, 15);
+    Point end = new Point(20, 25);
+
+    Line rectangle = new Line(start, end);
 
     @Test
     public void testDraw() throws Exception {
-
+        rectangle.draw();
     }
 
     @Test

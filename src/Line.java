@@ -9,7 +9,7 @@ public class Line extends Shape {
 
     @Override
     public void draw() {
-        System.out.println(getCenter() + "-----------" + end);
+        System.out.println(getCenter() + "---" + end);
     }
 
     public Point getEnd() {
