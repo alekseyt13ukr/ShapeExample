@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="238d5fa2-96c8-4e76-aeea-e1554f20ec71" name="Default" comment="delete temps files">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Line.java" afterPath="$PROJECT_DIR$/src/Line.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LineTest.java" afterPath="$PROJECT_DIR$/src/LineTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PointTest.java" afterPath="$PROJECT_DIR$/src/PointTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VectorGraphicsEditor.iml" afterPath="$PROJECT_DIR$/VectorGraphicsEditor.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="VectorGraphicsEditor.iws" />
