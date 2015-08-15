@@ -4,6 +4,8 @@ public class Rectangle extends Shape {
     private int height;
     private int width;
 
+    private Point p = new Point(10, 20);
+
     public Rectangle(Point center, int height, int width) {
         super(center);
         this.height = height;
@@ -12,7 +14,7 @@ public class Rectangle extends Shape {
 
     @Override
     public void draw() {
-        System.out.println();
+        System.out.println("draw rectangle with center: " + p + " height: " + height + " and width: " + width);
     }
 
     public int getHeight() {
