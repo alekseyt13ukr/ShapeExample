@@ -1,9 +1,10 @@
-/**
- * Created by qa-mach3 on 14.08.15.
- */
+package com.taran.shapes;
+
 public class Rectangle extends Shape {
     private int height;
     private int width;
+
+    private Point p = new Point(10, 20);
 
     public Rectangle(Point center, int height, int width) {
         super(center);
@@ -13,7 +14,7 @@ public class Rectangle extends Shape {
 
     @Override
     public void draw() {
-        //drawing current shape
+        System.out.println("draw rectangle with center: " + p + " height: " + height + " and width: " + width);
     }
 
     public int getHeight() {
