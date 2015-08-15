@@ -1,3 +1,5 @@
+package com.taran.shapes;
+
 public class Rectangle extends Shape {
     private int height;
     private int width;

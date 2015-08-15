@@ -12,24 +12,4 @@ public class LineTest {
     public void testDraw() throws Exception {
         rectangle.draw();
     }
-
-    @Test
-    public void testGetEnd() throws Exception {
-
-    }
-
-    @Test
-    public void testSetEnd() throws Exception {
-
-    }
-
-    @Test
-    public void testGetStart() throws Exception {
-
-    }
-
-    @Test
-    public void testSetStart() throws Exception {
-
-    }
 }

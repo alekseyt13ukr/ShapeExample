@@ -1,3 +1,5 @@
+package com.taran.shapes;
+
 /**
  * Created by qa-mach3 on 14.08.15.
  */

@@ -1,3 +1,5 @@
+package com.taran.shapes;
+
 public abstract class Shape {
     private Point center;
 

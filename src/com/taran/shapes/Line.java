@@ -1,3 +1,5 @@
+package com.taran.shapes;
+
 public class Line extends Shape {
     private Point start;
     private Point end;
